@@ -1,20 +1,28 @@
-\# Object Oriented Programming (OOP) — Spring 2026  
+\# Object Oriented Programming (OOP) — Spring 2026
 
-\*\*Course Code:\*\* CSC241 | \*\*Language:\*\* Java  
+
+
+\*\*Course Code:\*\* CSC241  
+
+\*\*Programming Language:\*\* Java
 
 
 
 This repository contains the \*\*official course material structure\*\* for the Object Oriented Programming (OOP) course offered in \*\*Spring 2026\*\*.  
 
-It is designed to support systematic delivery of lectures, labs, quizzes, assignments, and course documentation.
+It is designed to support the systematic delivery of lectures, labs, quizzes, assignments, and course documentation.
+
+
+
+---
 
 
 
 \## Sections
 
-\- \*\*FA25-BCS-C\*\*
+\- FA25-BCS-C
 
-\- \*\*FA25-BSE-C\*\*
+\- FA25-BSE-C
 
 
 
@@ -24,7 +32,9 @@ It is designed to support systematic delivery of lectures, labs, quizzes, assign
 
 \## Course Overview
 
-The course introduces the \*\*object-oriented programming paradigm\*\* with an emphasis on:
+The course introduces the \*\*object-oriented programming paradigm\*\* with emphasis on:
+
+
 
 \- Classes and objects  
 
@@ -40,7 +50,7 @@ The course introduces the \*\*object-oriented programming paradigm\*\* with an e
 
 
 
-The course follows the approved \*\*COMSATS University Islamabad (CUI)\*\* syllabus for CSC241.
+The course follows the approved \*\*COMSATS University Islamabad (CUI)\*\* syllabus for \*\*CSC241\*\*.
 
 
 
@@ -52,6 +62,50 @@ The course follows the approved \*\*COMSATS University Islamabad (CUI)\*\* sylla
 
 
 
+OOPSP26/
+
+├── FA25BCSC/
+
+│ ├── CDF/
+
+│ ├── Theory/
+
+│ │ ├── Class 1 ... Class 32
+
+│ │ ├── Quiz/
+
+│ │ │ ├── Quiz 1 ... Quiz 4
+
+│ │ └── Assignment/
+
+│ │ ├── Assignment 1 ... Assignment 4
+
+│ └── Lab/
+
+│ ├── Lab01 ... Lab16
+
+│ └── Lab Assignment 1 ... Lab Assignment 4
+
+│
+
+├── FA25BSEC/
+
+│ ├── CDF/
+
+│ ├── Theory/
+
+│ └── Lab/
+
+│
+
+└── README.md
+
+
+
+
+
+
+
 
 
 ---
@@ -60,15 +114,17 @@ The course follows the approved \*\*COMSATS University Islamabad (CUI)\*\* sylla
 
 \## Teaching \& Assessment
 
-\- \*\*Theory:\*\* Quizzes, assignments, mid-term and final exam  
+\- \*\*Theory:\*\* Quizzes, assignments, mid-term exam, final exam  
 
-\- \*\*Lab:\*\* Lab assignments, lab mid-term, and final project  
+\- \*\*Lab:\*\* Lab assignments, lab mid-term exam, final lab project  
 
-\- \*\*Total Contact Hours:\*\* 45 (3 lecture + 3 lab per week)
+\- \*\*Total Contact Hours:\*\* 45  
+
+&nbsp; (3 lecture hours + 3 lab hours per week)
 
 
 
-Assessment and CLO mapping strictly follow the approved course documentation.
+Assessment structure and CLO mapping strictly follow the approved course documentation.
 
 
 
@@ -77,6 +133,8 @@ Assessment and CLO mapping strictly follow the approved course documentation.
 
 
 \## Text \& Reference Books
+
+
 
 \*\*Textbook\*\*
 
@@ -100,11 +158,11 @@ Assessment and CLO mapping strictly follow the approved course documentation.
 
 \## Usage Notes
 
-\- This repository serves as a \*\*central reference\*\* for students and instructors.
+\- This repository serves as a \*\*central academic reference\*\* for students and instructors.
 
-\- Students are expected to clone/pull updates regularly.
+\- Students are expected to clone or pull updates regularly.
 
-\- All academic integrity and plagiarism policies of \*\*CUI\*\* apply.
+\- All \*\*academic integrity and plagiarism policies\*\* of CUI apply.
 
 
 
@@ -112,15 +170,19 @@ Assessment and CLO mapping strictly follow the approved course documentation.
 
 
 
-\*\*Maintained by:\*\*  
+\*\*Maintained by\*\*  
 
 \*\*Mr. Muhammad Shahid\*\*  
 
-Assistant Professor
+Assistant Professor  
 
 Department of Computer Science  
 
 COMSATS University Islamabad
+
+
+
+
 
 
 
