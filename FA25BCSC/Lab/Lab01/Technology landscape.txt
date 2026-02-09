@@ -1,0 +1,11 @@
+1 . Editor : Notepad
+2 . Command Prompt 
+	compile
+	run
+	debug
+3. Language: Java Oracle
+	jdk 21(LTS)/25 
+	
+3 . Code Sharing GitHub
+https://github.com/mshahidbhatti/OOPSP26
+
