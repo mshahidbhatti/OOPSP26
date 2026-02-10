@@ -3,6 +3,8 @@
 	compile
 	run
 	debug
+	(a) c:\oop>javac FirstApp.java (To compile)
+	(b) c:\oop>java FirstApp (To Run)
 3. Language: Java Oracle
 	jdk 21(LTS)/25 
 	
