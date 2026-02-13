@@ -1,10 +1,7 @@
 verify installation of java using   C:\> java --version
 
-
 create/open a new folder/directory in your desired location
-
 edit or modify java code
-
 save source file with .java extention
 
 open command prompt 
