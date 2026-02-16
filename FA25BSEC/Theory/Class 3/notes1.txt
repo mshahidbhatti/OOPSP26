@@ -1,0 +1,14 @@
+int a=10;
+Student s=new Student();
+
+Float f=new Float();
+
+System.out.println(s);
+
+	s.displayInfo();
+	s.name="";
+	String name=s.getName();
+
+
+
+setRadius(234);
