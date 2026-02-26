@@ -1,0 +1,133 @@
+OOP Lab Task: Library Book Membership Card System
+Your department library issues a membership card to every student who wants to borrow books. At the moment, the librarian records membership details in a register and assigns each card number manually, which often leads to duplicate numbers and incorrect entries. To solve this, the librarian wants a Java program that creates membership cards for students, automatically generates a unique card number for every new member, and displays the membership information in a clear and organized way. Students may arrive with different levels of information: sometimes they provide only their name, sometimes they provide their name and department, and sometimes they provide complete details such as name, department, semester, and fee paid. In addition, the librarian may want to generate a new membership based on an existing record by copying the previous member’s details while assigning a fresh card number. You will build this system using Java classes and run it using Command Prompt.
+What You Have to Build
+Folder Rule (Must Follow)
+Create a folder named exactly as your registration number.
+Example:
+	FA25BSE001
+Location (must be in D drive):
+	D:\OOP\FA25BSE001
+Place the following files inside that folder:
+	MemberCard.java
+	MemberCardDemo.java
+
+Class to Create: MemberCard
+A) Attributes
+i) Static (Class-Level)
+- private static int counter
+Purpose: Counts how many cards have been created.
+
+  - private static final String PREFIX = "LIB-"
+    Purpose: Used in generating the card number.
+
+ii) Instance (Object-Level)
+- private String cardNo
+Auto-generated format: LIB-0001, LIB-0002, ...
+
+  - private String studentName
+  - private String department
+  - private int semester
+  - private double feePaid
+  - private boolean active
+    true  = active
+    false = inactive
+
+B) Constructor Requirements (Constructor Overloading)
+
+You must implement at least these constructors:
+
+Default constructor
+
+Assign reasonable default values.
+Example:
+studentName = "Unknown"
+department = "BSSE"
+semester = 1
+feePaid = 0
+active = true
+
+MemberCard(String studentName)
+
+MemberCard(String studentName, String department)
+
+Full constructor
+	MemberCard(String studentName, String department, int semester, double feePaid, boolean active)
+
+Copy constructor
+	MemberCard(MemberCard other)
+	Copies all details except card number.
+
+A new card number must be generated.
+
+Note:Every constructor must generate a unique cardNo using the static counter.
+
+C) Static Method Requirement
+public static int getTotalCards()
+Purpose: Returns how many total MemberCard objects were created.
+
+D) Methods to Implement
+private static String generateCardNo()
+Purpose: Uses PREFIX and counter to produce card numbers like LIB-0001, LIB-0002.
+
+public void deactivateCard()
+Purpose: Sets active = false.
+
+public void activateCard()
+Purpose: Sets active = true.
+
+public void payFee(double amount)
+Purpose: Adds amount to feePaid.
+Rule: Do not allow negative amounts.
+
+public String toString()
+Purpose: Return all card details in a readable one-line format.
+Must include:
+cardNo, studentName, department, semester, feePaid, active
+
+Driver Class: MemberCardDemo
+
+In main() you must:
+
+A) Object Creation
+
+Create at least 6 objects using different constructors:
+
+1 using default constructor
+
+2 using overloaded constructors
+
+2 using full constructor
+
+1 using copy constructor
+
+B) Method Calls
+
+Pay fee for at least 1 member.
+
+Deactivate at least 1 member.
+
+Activate at least 1 member (could be same or different).
+
+C) Printing
+
+Print all cards using toString().
+
+Print total cards created using MemberCard.getTotalCards().
+
+Command Prompt (Mandatory Run)
+
+Open Command Prompt.
+
+Go inside your folder (example registration number FA25BSE001):
+cd /d D:\OOP\FA25BSE001
+
+Compile:
+javac MemberCard.java MemberCardDemo.java
+
+Run:
+java MemberCardDemo
+
+Expected Output Style (Format Can Vary)
+LIB-0001 Ali BSSE 3 Fee: 500 Active: true
+LIB-0002 Sana BBA 1 Fee: 0 Active: false
+Total Cards Created: 6
