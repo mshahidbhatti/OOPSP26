@@ -7,20 +7,7 @@ public class PersonDemo {
         Person p1=new Person("shahid","shahid@gmail.com", dob1);
 
        // dob.setYear(1980);
-        Person p2=new Person("Shahid","zain@gmail.com",new Date(20,10,2003));
-
-
-       // if(p1.getName()==p2.getName())
-        if(p1.getName().equalsIgnoreCase(p2.getName()))
-            System.out.println("Names are same in both objects");
-
-        if(p2==p1)
-            System.out.println("Objects are equal");
-        else
-            System.out.println("Objects are not equal");
-
-
-
+        Person p2=new Person("Zain","zain@gmail.com",new Date(20,10,2003));
 
 //        Date tempDate= p2.getDob();
 //        tempDate.setYear(1989);

@@ -21,10 +21,6 @@ public class Person {
         this.dob= new Date(other.getDob());  // deep copy
     }
 
-    public boolean equals(Object other){
-        return false;
-    }
-
 
     public String getName() {
         return name;
