@@ -1,0 +1,41 @@
+A cinema ticket management system provides an effective real-world example for teaching Object-Oriented Programming in CSC241. It helps students understand how software systems are designed by modeling real-world entities as classes, objects, attributes, and relationships. In this system, a company owns and manages multiple cinema branches located in the same city or in different cities. Each cinema branch contains several screens, allowing multiple movies to run in parallel. Every screen has its own properties, such as screen ID, screen type (for example 2D, 3D, or IMAX), and the movie currently assigned to it.
+The system should include the following main entities:
+
+Seat
+Each cinema seat should have attributes such as:
+seat number or ID
+row number
+seat type (for example: Regular, Premium, VIP)
+price
+booking status (available/booked)
+
+Screen
+A screen contains an array or collection of seats arranged in rows.
+The front rows should have fewer seats
+Seat arrangement should visually reflect a realistic cinema layout
+Different seat types can have different prices
+Each screen should also have:
+screen name or screen ID
+
+screen type (for example: 2D, 3D, IMAX)
+the movie currently playing on that screen
+Movie
+Each movie can have attributes such as:
+movie title
+genre
+duration
+show time
+
+Cinema Branch
+A cinema branch contains multiple screens because several movies may run in parallel in the same branch.
+Each cinema branch can have:
+branch name
+city
+address or location
+
+Company
+The entire cinema system is owned by a company that manages multiple cinema branches in the same city or in different cities.
+
+The illustration should clearly show the hierarchical relationship:
+Company → Cinema Branches → Screens → Seats
+and also show that each Screen is associated with one Movie.
